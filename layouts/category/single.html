@@ -1,38 +1,23 @@
 {{ define "main" }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $pageParam := .Params }}
 
  <div id="content">
-      <!--导航条-->
-      <div class="mask">
-        
-          <div class="fenzhi-nav-item">
-            <a class="item-img" href="/category.html"><img src="/upload/images/2018/10/8a051f89bcd0750a.jpg"></a>
-          </div>
-        
-          <div class="fenzhi-nav-item">
-            <a class="item-img" href="/ui.html"><img src="/upload/images/2018/10/3e08d3698b088f88.jpg"></a>
-          </div>
-        
-          <div class="fenzhi-nav-item">
-            <a class="item-img" href="/cg.html"><img src="/upload/images/2018/10/46f51682aee0c3a5.jpg"></a>
-          </div>
-        
-          <div class="fenzhi-nav-item">
-            <a class="item-img" href="/office.html"><img src="/upload/images/2018/10/9a40eea2605a4965.jpg"></a>
-          </div>
-        
-      </div>
       <div class="left-bar">
-        {{ with .Params }}
-          <div class="header"><h2>{{.title}}</h2></div>
+      {{ range $data.categories.children }}
+        {{ if eq .id $pageParam.id }}
+        
+          <div class="header"><h2>{{.name}}</h2></div>
               <div class="menu" id="menu">
                 <ul class="scrollcontent">
                     {{range .children}}
-                    <li><a href="/category.html#row-1"><i class="fa fa-video"></i>{{.title}}</a></li>
+                    <li><a href="#{{.id}}"><i class="{{.icon}}"></i>{{.name}}</a></li>
                   
                     {{end}}
                 </ul>
               </div>
         {{end}}
+      {{end}}
       </div>
       
       <div class="duty-main">
@@ -48,19 +33,20 @@
               </div>
             </div>
           </div>
-            {{ with .Params }}
+            {{ range $data.categories.children }}
+            {{ if eq .id $pageParam.id }}
             {{ range .children }}
             <div class="row duty-item">
               <div class="col-md-12">
-                <div id="row-1" class="anchor-link"></div>
-                <strong class="duty-item-name"><i class="fa fa-video"></i>{{ .title}}</strong>
+                <div id="{{.id}}" class="anchor-link"></div>
+                <strong class="duty-item-name"><i class="{{.icon}}"></i>{{ .name}}</strong>
               </div>            
               <div class="col-md-12 two-list-box">
                 <div class="row">
                     {{ range .children }}
                     <div class="col-md-3 col-sm-4 col-xs-6">
-                      <a href="https://www.imooc.com/" class="duty-card" target="_blank" title="慕课网 - 程序员的梦工厂，慕课网是垂直的互联网IT技能免费学习网站。">
-                        <div class="duty-card-tit"><img src="/images/zhanwei.gif" data-original="/images/cloud.png">{{.title}}</div>
+                      <a href="{{.url}}" class="duty-card" target="_blank" title="慕课网 - 程序员的梦工厂，慕课网是垂直的互联网IT技能免费学习网站。">
+                        <div class="duty-card-tit"><img src="/images/zhanwei.gif" data-original="/images/cloud.png">{{.name}}</div>
                         <div class="duty-card-des">程序员的梦工厂，慕课网是垂直的互联网IT技能免费学习网站。</div>
                       </a>
                     </div>
@@ -69,6 +55,7 @@
                 </div>
               </div>  
             </div>
+            {{ end }}
             {{ end }}
             {{ end }}
           

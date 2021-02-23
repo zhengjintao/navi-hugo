@@ -1,0 +1,29 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.categories.display }}
+
+{{ with $data.categories }}
+{{ range .children }}
+{{ $id := .id }}
+<div class="row duty-item">
+    <div class="col-md-12">
+      <div id="row-1" class="anchor-link"></div>
+      <strong class="duty-item-name"><i class="{{.icon}}"></i>{{ .name }}</strong>
+    </div>            
+    <div class="col-md-12 two-list-box">
+      <div class="row">
+        {{ range .children }}
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <a href="/category/{{$id}}#{{.id}}" class="duty-card" target="_blank" title="">
+              <div class="duty-card-tit"><img src="/images/zhanwei.gif" data-original="/images/cloud.png">{{.name}}</div>
+              <!--<div class="duty-card-des">{{.name}}</div>-->
+            </a>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
+{{ end }}
+
+{{ end }}

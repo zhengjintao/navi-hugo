@@ -18,10 +18,10 @@
       <div id="tow-nav">
 	      {{ range .children }}
 	      <div class="tow-nav-item">
-	        <a class="item-img" href="/category.html">{{.name}}</a>
+	        <a class="item-img" href="/category/{{.id}}">{{.name}}</a>
 	        <ul>
               {{ range .children }}
-	            <li><a target="_blank" href="/category.html#row-1">{{ .name }}</a></li>
+	            <li><a target="_blank" href="/category#row-1">{{ .name }}</a></li>
               {{ end }}
 	        </ul>
 	      </div>
@@ -31,16 +31,21 @@
 	    </div>
       {{ end }}
       {{ end }}
-
-     <nav class="nav">
+        {{ if $data.categories.display }}
+		{{ with $data.categories }}
+		 {{ range .children }}
+         <nav class="nav">
 		    <ul>
-		        <li><a href="/index.html">全部分类<i class="fa fa-caret-down"></i></a></li>
+		        <li><a href="/category/{{.id}}">{{.name}}</a></li>
 		    </ul>
 		  </nav>
+		  {{end}}
+		{{end}}
+		{{end}}
 		  <div class="user visible-lg">
 		  </div>
 		  <div class="head-btn visible-lg">
-		    <a href="/index.html" target="_blank">首页</a>
+		    <a href="/index.html">首页</a>
 		  </div>
 		  <button class="nav-btn visible-xs visible-sm">
 		    <span class="icon-line top"></span>
