@@ -1,0 +1,18 @@
+# theme.toml for the Vex Hugo theme
+
+name = "navi"
+license = "MIT"
+licenselink = "https://github.com/zhengjintao/vex-hugo/blob/master/LICENSE"
+description = "Vex by Themefisher ported to Hugo"
+homepage = "https://webase.tech/"
+tags = ["onepage", "bootstrap", "ecommerce", "single product", "product", "themefisher","gethugothemes"]
+features = ["onepage", "product"]
+min_version = "0.62.2"
+
+[author]
+  name = "zhengjintao"
+  homepage = "https://webase.tech/"
+
+[original]
+  name = "webase"
+  homepage = "https://org.webase.tech/"
