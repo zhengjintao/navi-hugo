@@ -5,9 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: exampleSite/data/cn/categories.json
+  path: naviSite/data/cn/categories.json
   label: category
-  match: "**/*"
 - type: heading
   label: Homepage
 - type: document
