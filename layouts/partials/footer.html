@@ -3,14 +3,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <a href="{{ site.BaseURL | relLangURL }}" class="mb-4 d-inline-block">{{ if site.Params.logo }} <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" {{with site.Params.logo_width}}width="{{.}}"{{end}}> {{ else }} {{ .Title }} {{ end }}</a>
-          <ul class="list-inline footer-menu">
-            {{ range site.Menus.footer }}
-            <li class="list-inline-item">
-              <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
-            </li>
-            {{ end }}
-          </ul>
+          
           <p class="copyright-text">{{ site.Params.copyright | markdownify }}</p>
         </div>
       </div>
@@ -30,3 +23,41 @@
 <!-- Main Script -->
 {{ $script := resources.Get "js/script.js" }}
 <script src="{{ $script.Permalink }}"></script>
+
+
+     
+      
+		<div id="top" class="hidden-xs hidden-sm">
+		  <ul>
+		    <li class="top-item">
+		      <a href="javascript:;" data-tooltip="联 系客 服"><i class="fas fa-comment"></i></a>
+		      <span><img src="/images/wechat.jpg"></span>
+		    </li>
+		    <li class="top-item">
+		      <a href="javascript:;" data-tooltip="意 见反 馈"><i class="fas fa-envelope"></i></a>
+		      <span>我们可以做的更好</span>
+		    </li>
+		    <li class="top-item">
+		      <a href="javascript:;" data-tooltip="微 信群 聊"><i class="fab fa-weixin"></i></a>
+		      <span><img src="/images/qun.jpg"></span>
+		    </li>
+		    <li class="top-item">
+		      <a href="javascript:;" data-tooltip="返 回顶 部" style="display: none" id="go-top"><i class="fa fa-chevron-up"></i></a>
+		    </li>
+		  </ul>
+		</div>
+
+
+      </div>
+    </div>
+    
+    <!--[if lt IE 9]>
+    <script src="dist/lib/ieonly/html5shiv.js"></script>
+    <script src="dist/lib/ieonly/respond.js"></script>
+    <![endif]-->
+	<!-- jQuery (ZUI中的Javascript组件依赖于jQuery) -->
+	<script src="/js/jquery.js"></script>
+	<script src="/dist/js/zui.js"></script>
+	<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+	<script src="/js/Valine.min.js"></script>
+	<script src="/js/main.min.js?v=3.0.2"></script>

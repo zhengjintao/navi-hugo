@@ -1,0 +1,59 @@
+{
+    "name": "全部分类",
+    "display": true,
+    "children": [
+        {
+            "name": "生活",
+            "children": [
+                {
+                    "name": "租房买房",
+                    "children": [
+                        
+                    ]
+                },
+                {
+                    "name": "水电煤网",
+                    "children": [
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "学习/工作",
+            "children": [
+                {
+                    "name": "租房买房",
+                    "children": [
+                        
+                    ]
+                }
+                
+            ]
+        },
+        {
+            "name": "娱乐/旅游",
+            "children": [
+                {
+                    "name": "租房买房",
+                    "children": [
+                        
+                    ]
+                }
+                
+            ]
+        },
+        {
+            "name": "投资",
+            "children": [
+                {
+                    "name": "租房买房",
+                    "children": [
+                        
+                    ]
+                }
+                
+            ]
+        }
+    ]
+}
