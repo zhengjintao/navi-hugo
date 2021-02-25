@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>日本生活工作学习导航</title>
-    <link>https://www.webase.tech/</link>
-    <description>Recent content on 日本生活工作学习导航</description>
+    <title>生活 on 日本生活工作学习导航</title>
+    <link>https://www.webase.tech/category/</link>
+    <description>Recent content in 生活 on 日本生活工作学习导航</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>Designed &amp; Developed By [Zhengjintao](https://github.com/zhengjintao/)</copyright><atom:link href="https://www.webase.tech/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Designed &amp; Developed By [Zhengjintao](https://github.com/zhengjintao/)</copyright><atom:link href="https://www.webase.tech/category/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>投资</title>
       <link>https://www.webase.tech/category/invest/</link>

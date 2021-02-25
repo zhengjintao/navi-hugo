@@ -309,11 +309,10 @@ header .user-btn .user-btn-group::after{
 }
 .user-btn-group li a{ color: #999; }
 
-/*äºŒçº§èœå• - åˆ†æ”¯*/
 #tow-nav{
   position: absolute;
     top: 60px;
-    width: 1120px;
+    width: 95%;
     height: 465px;
     padding: 20px 5px 20px 20px;
     display: none;
@@ -370,7 +369,6 @@ header .user-btn .user-btn-group::after{
   border: 1px solid rgba(204, 204, 204, 0.5);
 }
 
-/*é¡µé¢å·¦è¾¹å¯¼èˆªæ¡*/
 .mask{
   position: fixed;
   left: 0;

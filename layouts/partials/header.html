@@ -1,60 +1,62 @@
 <!-- navigation -->
 <header id="fenzhi-nav">
-      <div class="main">
-		  <div class="logo">
-		    <a href="/index.html">
-		      <img src="/images/logo-h.jpg">
-		    </a>
-		  </div>
+	<div class="main">
+		<div class="logo">
+			<a href="/index.html">
+				<img src="/images/logo-h.jpg">
+			</a>
+		</div>
 
-      {{ $data := index .Site.Data .Site.Language.Lang }}
-      {{ if $data.categories.display }}
-      {{ with $data.categories }}
-		  <nav class="nav">
-		    <ul>
-		        <li><a class="duty-nav" href="/index.html">{{.name}}<i class="fa fa-caret-down"></i></a></li>
-		    </ul>
-		  </nav>
-      <div id="tow-nav">
-	      {{ range .children }}
-	      <div class="tow-nav-item">
-	        <a class="item-img" href="/category/{{.id}}">{{.name}}</a>
-	        <ul>
-              {{ range .children }}
-	            <li><a target="_blank" href="/category#row-1">{{ .name }}</a></li>
-              {{ end }}
-	        </ul>
-	      </div>
-	    {{ end }}
-	      
-	    
-	    </div>
-      {{ end }}
-      {{ end }}
-        {{ if $data.categories.display }}
+		{{ $data := index .Site.Data .Site.Language.Lang }}
+
+		{{ if $data.categories.display }}
 		{{ with $data.categories }}
-		 {{ range .children }}
-         <nav class="nav">
-		    <ul>
-		        <li><a href="/category/{{.id}}">{{.name}}</a></li>
-		    </ul>
-		  </nav>
-		  {{end}}
+		{{ range .children }}
+		<nav class="nav">
+			<ul>
+				<li><a href="/category/{{.id}}">{{.name}}</a></li>
+			</ul>
+		</nav>
 		{{end}}
 		{{end}}
-		  <div class="user visible-lg">
-		  </div>
-		  <div class="head-btn visible-lg">
-		    <a href="/index.html">首页</a>
-		  </div>
-		  <button class="nav-btn visible-xs visible-sm">
-		    <span class="icon-line top"></span>
-		    <span class="icon-line middle"></span>
-		    <span class="icon-line bottom"></span>
-		  </button>
-		  <div class="mobile-user visible-xs visible-sm">
-	  </div>
-	  
-	   </div>
+		{{end}}
+
+		{{ if $data.categories.display }}
+		{{ with $data.categories }}
+		<nav class="nav">
+			<ul>
+				<li><a class="duty-nav" href="/index.html">{{.name}}<i class="fa fa-caret-down"></i></a></li>
+			</ul>
+		</nav>
+		<div id="tow-nav">
+			{{ range .children }}
+			<div class="tow-nav-item">
+				<a class="item-img" href="/category/{{.id}}">{{.name}}</a>
+				<ul>
+					{{ range .children }}
+					<li><a target="_blank" href="/category#row-1">{{ .name }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			{{ end }}
+
+
+		</div>
+		{{ end }}
+		{{ end }}
+		<div class="user visible-lg">
+		</div>
+		<div class="head-btn visible-lg">
+			<a href="/index.html">首页</a>
+		</div>
+		<button class="nav-btn visible-xs visible-sm">
+			<span class="icon-line top"></span>
+			<span class="icon-line middle"></span>
+			<span class="icon-line bottom"></span>
+		</button>
+		<div class="mobile-user visible-xs visible-sm">
+		</div>
+
+	</div>
     </header>
 <!-- /navigation -->

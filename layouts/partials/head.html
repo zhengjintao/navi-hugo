@@ -1,4 +1,4 @@
-<head>
+﻿<head>
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
 
@@ -18,8 +18,8 @@
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
   {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+  <link rel="shortcut icon" href="{{ `images/logo-h.jpg` | absURL }} " type="image/x-icon">
+  <link rel="icon" href="{{ `images/logo-h.jpg` | absURL }} " type="image/x-icon">
 
   {{ with .Params.image }}
   <meta property="og:image" content="{{ . | absURL }}" />
@@ -29,5 +29,4 @@
   <link rel="stylesheet" href="/css/zui.min.css">
 	<link href="/css/main-style.css?v=3.0.2" rel="stylesheet">
 	<link href="/css/all.min.css" rel="stylesheet">
-	<script src="/js/md5.js"></script>
 </head>

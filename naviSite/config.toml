@@ -1,13 +1,13 @@
-baseurl = "http://examplesite.com/"
+baseurl = "https://www.webase.tech/"
 disableLanguages = ["fr"]
 defaultContentLanguage = "cn"
 googleAnalytics = ""
 summarylength = "20"
 theme = "navi-hugo"
-title = "Vex | hugo landing page template"
+title = "日本生活工作学习导航"
 [Languages.cn]
 contentDir = "content/chinese"
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Designed & Developed By [Zhengjintao](https://github.com/zhengjintao/)"
 languageCode = "zh-cn"
 languageName = "中文"
 weight = 1
@@ -34,13 +34,13 @@ url = "contact"
 weight = 5
 [Languages.en]
 contentDir = "content/english"
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Designed & Developed By [Zhengjintao](https://github.com/zhengjintao/)"
 languageCode = "en-us"
 languageName = "En"
 weight = 2
 [Languages.fr]
 contentDir = "content/french"
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Designed & Developed By [Zhengjintao](https://github.com/zhengjintao/)"
 languageCode = "fr-fr"
 languageName = "Fr"
 weight = 3
@@ -90,25 +90,6 @@ currency = "$"
 description = "This is meta description"
 logo = "images/logo.png"
 logo_width = "100px"
-snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-link = "plugins/themefisher-font/themefisher-font.min.css"
-[[params.plugins.css]]
-link = "plugins/slick/slick.min.css"
-[[params.plugins.css]]
-link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
-[[params.plugins.js]]
-link = "plugins/jquery/jquery.js"
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
 [params.preloader]
 enable = true
 preloader = ""

@@ -3,297 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://examplesite.com/en/products/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <loc>https://www.webase.tech/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="http://examplesite.com/products/"
+                href="https://www.webase.tech/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.com/en/products/"
+                href="https://www.webase.tech/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://examplesite.com/en/products/product-1/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <loc>https://www.webase.tech/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="http://examplesite.com/products/product-1/"
+                href="https://www.webase.tech/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.com/en/products/product-1/"
+                href="https://www.webase.tech/en/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://examplesite.com/en/blog/post-3/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <loc>https://www.webase.tech/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="http://examplesite.com/blog/post-3/"
+                href="https://www.webase.tech/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.com/en/blog/post-3/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/products/product-2/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/products/product-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/products/product-2/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/blog/post-1/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/blog/post-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/blog/post-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/products/product-4/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/products/product-4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/products/product-4/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/products/product-7/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/products/product-7/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/products/product-7/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/products/product-8/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/products/product-8/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/products/product-8/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/blog/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/products/product-6/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/products/product-6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/products/product-6/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/products/product-5/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/products/product-5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/products/product-5/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/blog/post-4/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/blog/post-4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/blog/post-4/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/blog/post-2/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/blog/post-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/blog/post-2/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/products/product-3/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/products/product-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/products/product-3/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/contact/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/privacy-policy/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/privacy-policy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/privacy-policy/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://examplesite.com/en/terms-conditions/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://examplesite.com/terms-conditions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://examplesite.com/en/terms-conditions/"
+                href="https://www.webase.tech/en/"
                 />
   </url>
   
