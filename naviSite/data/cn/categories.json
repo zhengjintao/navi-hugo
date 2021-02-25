@@ -1,319 +1,178 @@
 {
-    "name": "全部分类",
-    "display": true,
-    "children": [
+  "name": "全部分类",
+  "display": true,
+  "children": [
+    {
+      "id": "life",
+      "name": "生活",
+      "children": [
         {
-            "id": "life",
-            "name": "生活",
-            "children": [
-                {
-                    "id":"1",
-                    "name": "租房买房",
-                    "icon": "fas fa-angle-right",
-                    "children": [
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        }
-                    ]
-                },
-                {
-                    "id":"2",
-                    "name": "水电煤网",
-                    "icon": "fas fa-angle-right",
-                    "children": [
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        }
-                    ]
-                },
-                {
-                    "id":"3",
-                    "name": "水电煤网",
-                    "icon": "fas fa-angle-right",
-                    "children": [
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        }
-                    ]
-                }
-            ]
+          "id": "1",
+          "name": "租房买房",
+          "icon": "fas fa-angle-right",
+          "children": [
+            {
+              "name": "谷歌",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.google.co.jp"
+            },
+            {
+              "name": "谷歌",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.google.co.jp"
+            }
+          ]
         },
         {
-            "id": "work",
-            "name": "学习/工作",
-            "children": [
-                {
-                    "name": "租房买房",
-                    "children": [
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        }
-                    ]
-                }
-                
-            ]
+          "id": "2",
+          "name": "水电煤网",
+          "icon": "fas fa-angle-right",
+          "children": [
+            {
+              "name": "谷歌",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.google.co.jp"
+            },
+            {
+              "name": "谷歌",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.google.co.jp"
+            }
+          ]
         },
         {
-            "id": "happy",
-            "name": "娱乐/旅游",
-            "children": [
-                {
-                    "name": "租房买房",
-                    "children": [
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        }
-                    ]
-                }
-                
-            ]
-        },
-        {
-            "id": "invest",
-            "name": "投资",
-            "children": [
-                {
-                    "name": "租房买房",
-                    "children": [
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        }
-                    ]
-                },
-                {
-                    "name": "租房买房",
-                    "children": [
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        }
-                    ]
-                },
-                {
-                    "name": "租房买房",
-                    "children": [
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        },
-                        {
-                            "name":"麒麟不动产",
-                            "img":"/images/zhanwei.gif",
-                            "url":"https://www.google.co.jp"
-                        }
-                    ]
-                }
-                
-            ]
+          "id": "3",
+          "name": "在线购物",
+          "icon": "fas fa-angle-right",
+          "children": [
+            {
+              "name": "Amazon",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.amazon.co.jp"
+            },
+            {
+              "name": "乐天",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.rakuten.co.jp"
+            },
+            {
+              "name": "Yahoo购物",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.yahoo.co.jp"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": "work",
+      "name": "学习/工作",
+      "children": [
+        {
+          "id": "1",
+          "name": "留学-语言学校",
+          "children": [
+            {
+              "name": "谷歌",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.google.co.jp"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "留学-大学/大学院",
+          "children": [
+            {
+              "name": "谷歌",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.google.co.jp"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "在日企业-IT",
+          "children": [
+            {
+              "name": "株式会社ブリジットワールドコンサルティング",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.bridgeworld.co.jp"
+            },
+            {
+              "name": "株式会社ライブテック",
+              "img": "/images/zhanwei.gif",
+              "url": "https://livetech.co.jp"
+            },
+            {
+              "name": "株式会社ディープソリューションズ",
+              "img": "/images/zhanwei.gif",
+              "url": "https://kk-ds.co.jp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "happy",
+      "name": "娱乐/旅游",
+      "children": [
+        {
+          "id": "1",
+          "name": "电影/视频",
+          "children": [
+            {
+              "name": "谷歌",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.google.co.jp"
+            },
+            {
+              "name": "谷歌",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.google.co.jp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invest",
+      "name": "投资",
+      "children": [
+        {
+          "id": "1",
+          "name": "比特币",
+          "children": [
+            {
+              "name": "Bitbank",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.google.co.jp"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "不动产",
+          "children": [
+            {
+              "name": "谷歌",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.google.co.jp"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "证券",
+          "children": [
+            {
+              "name": "谷歌",
+              "img": "/images/zhanwei.gif",
+              "url": "https://www.google.co.jp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
